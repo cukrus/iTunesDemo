@@ -22,3 +22,6 @@ users using this service.
 * Searching for artists by keyword: POST https://itunes.apple.com/search?entity=allArtist&term=abba 
 * Getting top5 albums by AMG artist id: POST https://itunes.apple.com/lookup?amgArtistId=3492&entity=album&limit=5 
 * More: https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api
+
+# Build and run instructions:
+* build and run - ./mvnw spring-boot:run
